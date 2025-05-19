@@ -40,3 +40,7 @@ noremap <F9> bi{ea}
 " Use space to enter visual mode and select the word under the cursor
 noremap <space> viw
 ```
+References
+```
+https://learnvimscriptthehardway.stevelosh.com/
+```
