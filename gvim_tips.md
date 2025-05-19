@@ -28,3 +28,15 @@ Create a mapping for quickly source your vimrc
 How to search for multiple patterns in gvim at the same time?
 
 `/\(pattern1\|pattern2\)`
+
+Below are some lines from my vimrc
+```
+" Use jk to go to escape mode and save file 
+inoremap jk <Esc>:w!<CR>
+" Use F7 for commenting out a link in verilog style
+noremap <F7> 0i//
+" Use F9 to surround the word under cursor with curly braces
+noremap <F9> bi{ea}
+" Use space to enter visual mode and select the word under the cursor
+noremap <space> viw
+```
