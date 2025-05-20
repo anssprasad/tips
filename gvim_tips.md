@@ -46,3 +46,14 @@ References
 ```
 https://learnvimscriptthehardway.stevelosh.com/
 ```
+```
+let mapleader = ","
+echo "Welcome Prasad!"
+"edit my vimrc five
+:nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+"source vimrc using ,sv
+:nnoremap <leader>sv :source $MYVIMRC<cr>
+"toggle relative number setting
+:nnoremap <leader>trn :set relativenumber!<cr>
+" Use jk to go to escape mode and save file 
+```
